@@ -15,31 +15,27 @@ h2{font-size:1.2rem;margin-top:2rem}
 <body>
 <main>
 <h1>Kindred &mdash; Privacy Policy</h1>
-<p class="updated">Last updated: 2026-09-29</p>
+<p class="updated">Last updated: 2026-11-17</p>
 
 <p>This page explains, in plain words, what Kindred does with your family's information. If any sentence here is unclear, that is our mistake to fix, not something you need a lawyer to read for you.</p>
-
 <h2>What Kindred stores on your phone</h2>
-<p>Kindred keeps your family tree &mdash; names, relationships, photos, and the record of who confirmed each entry &mdash; on your own phone, in a database only your phone can read. There is no central company database holding everyone's family trees. Each family's tree lives on that family's own phones.</p>
-
+<p>Kindred keeps your family tree &mdash; names, relationships, photos, and the record of who confirmed each entry &mdash; on your own phone, in an encrypted database. The key that unlocks it is kept in your phone's secure key storage (Keychain on iPhone, Keystore on Android), is not included in phone backups, and is not readable by other apps. There is no central company database holding everyone's family trees. Each family's tree lives on that family's own phones.</p>
 <h2>What leaves your phone</h2>
-<p><strong>By default: nothing.</strong> Kindred does not send your family's information anywhere. You can use the whole app &mdash; build a tree, add people, confirm entries, view the tree &mdash; without any of it leaving your device.</p>
-
-<p><strong>If you turn on the optional backup:</strong> Kindred has a switch in Settings called the relay backup. If you turn it on, your phone sends an encrypted copy of your family bundle to a server so you can recover it later or move it to a new phone. That copy is scrambled on your phone before it is sent &mdash; the server only ever holds the scrambled version, and has no way to unscramble it, because it never has your family's key. The encrypted copy is stored on cloud infrastructure we rent from a commercial hosting provider (Cloudflare); the provider cannot read it either, for the same reason. A backup that nobody replaces with a newer one is deleted automatically after 180 days.</p>
-
-<p>When your phone sends or fetches that encrypted copy, the server also sees the ordinary technical details of the request: your phone's internet (IP) address, the time, the type of request, how large the response was, and the first few characters of your family's relay handle (an address token the app generates &mdash; never your family's name or any family data). Records of those requests are kept for 30 days and then deleted. They are used only to keep the service running and to stop abuse &mdash; never to advertise to you, and never sold or given to anyone else. Your phone contacts the server only when you turn on relay backup, or when you choose "Restore from relay" and enter a relay code; if you do neither, your phone never contacts the server at all, so there is nothing to record.</p>
-
+<p><strong>Nothing, on its own.</strong> This version of Kindred keeps your family's records on your phone and does not contact any server. You can use the whole app &mdash; build a tree, add people, confirm entries, view the tree &mdash; without any of it leaving your device. This version has no backup switch and no online backup. The "Privacy policy" row in Settings opens this page in your phone's web browser, which loads it from our website.</p>
 <p>Kindred has no advertising, no analytics tracking, and no crash-reporting service watching how you use the app. Nothing about your usage is collected for those purposes, because none of that code is in the app.</p>
-
+<h2>How sharing works</h2>
+<p>A family is shared only when you send a family file yourself, for example through a messaging app or email you choose. Kindred hands the file to your phone's share menu; what happens to it after that is up to you and the app you send it with. Kindred does not send it for you.</p>
+<h2>Camera and biometric lock</h2>
+<ul>
+<li><strong>Camera:</strong> Kindred uses the camera in two places. To read a recovery QR code from the live camera view; nothing from that view is saved or sent. And if you choose "Take photo" on a person's page, the picture you take is kept as that person's photo in your family on your phone; it goes to relatives only inside a family file you send yourself. You can instead choose a photo from your library. Kindred does not record video or audio.</li>
+<li><strong>Biometric lock:</strong> the optional setting "Require biometrics on launch" uses your phone's own fingerprint or face unlock to open the app. Kindred does not receive or store your fingerprint or face; the check is done by your phone. If your fingerprint or face is not available, your phone may ask for its screen-lock PIN or passcode instead.</li>
+</ul>
 <h2>Who can see your family's data</h2>
-<p>Only people you invite into your family's tree, using the key your family shares among yourselves. There is no account, no login, and no company employee with a way to read your family's information &mdash; not us, and not the server that holds the optional encrypted backup.</p>
-
+<p>Only people you send a family file to, and people who already hold the key your family shares among yourselves. There is no account, no login, and no company employee with a way to read your family's information, because it never leaves your phone through Kindred.</p>
 <h2>Children's information</h2>
 <p>Kindred is a family-tree app and may include information about children as family members (for example, a child's name and place in the family), entered by an adult relative who is already part of the family's tree. Kindred is not directed at children, does not let a child sign up or use the app on their own account (there are no accounts), and collects nothing beyond what an adult family member chooses to enter about their own family.</p>
-
 <h2>Changes to this policy</h2>
 <p>If this policy changes, we will update the "Last updated" date above and describe what changed. We will not make a change that lets us see family data we could not see before without saying so here first.</p>
-
 <h2>Contact</h2>
 <p>Questions about this policy: <a href="mailto:admin@yellowstonetech.net">admin@yellowstonetech.net</a>.</p>
 </main>
